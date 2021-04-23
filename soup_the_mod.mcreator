@@ -362,8 +362,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.soup_the_mod.soup_ore_ore": "Soup Ore",
       "item.soup_the_mod.soup": "Normale soup",
+      "block.soup_the_mod.soup_ore_ore": "Soup Ore",
       "item.soup_the_mod.soup_armor_armor_helmet": "Soup Helmet",
       "item.soup_the_mod.soup_tool_axe": "Soup Axe",
       "fluid.soupfluid": "Soupfluid",
@@ -386,8 +386,8 @@
       "item.soup_the_mod.soup_tool_sword": "Soup Sword"
     },
     "fr_fr": {
-      "block.soup_the_mod.soup_ore_ore": "Minerais de soupe",
       "item.soup_the_mod.soup": "Soupe normale",
+      "block.soup_the_mod.soup_ore_ore": "Minerais de soupe",
       "item.soup_the_mod.soup_armor_armor_helmet": "Casque en soup",
       "item.soup_the_mod.soup_tool_axe": "Hache en soupe",
       "fluid.soupfluid": "Soupe",
@@ -413,7 +413,7 @@
   "workspaceSettings": {
     "modid": "soup_the_mod",
     "modName": "Soup: The mod",
-    "version": "0.3.3",
+    "version": "0.4.0",
     "description": "A very cool mod!",
     "author": "Windows XP",
     "websiteURL": "https://mcreator.net",
