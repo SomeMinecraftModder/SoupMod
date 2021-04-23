@@ -1,0 +1,31 @@
+{
+  "group": "soup_the_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soup_the_mod:soupgem"
+    },
+    {
+      "item": "soup_the_mod:soupgem"
+    },
+    {
+      "item": "soup_the_mod:soupgem"
+    },
+    {
+      "item": "soup_the_mod:soupgem"
+    },
+    {
+      "item": "soup_the_mod:soupblock"
+    },
+    {
+      "item": "soup_the_mod:soupgem"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "soup_the_mod:supersoup",
+    "count": 1
+  }
+}
