@@ -62,6 +62,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "normalesoupcraft"
+    },
+    {
+      "name": "Soupfluid",
+      "type": "fluid",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soupfluid"
+    },
+    {
+      "name": "Souplist",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souplist"
     }
   ],
   "variable_elements": [],
@@ -69,16 +87,19 @@
   "language_map": {
     "en_us": {
       "item.soup_the_mod.soup": "Normale soup",
+      "fluid.soupfluid": "Soupfluid",
+      "itemGroup.tabsouplist": "Soup",
       "biome.soup_the_mod.soupbiome": "Soupbiome",
-      "block.soup_the_mod.soupblock": "Solid Soup"
+      "block.soup_the_mod.soupblock": "Solid Soup",
+      "item.soup_the_mod.soupfluid_bucket": "Soupfluid Bucket"
     }
   },
   "workspaceSettings": {
     "modid": "soup_the_mod",
     "modName": "Soup: The mod",
-    "version": "1.0.0",
-    "author": "thoma, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "version": "0.2.1",
+    "description": "A very cool mod!",
+    "author": "Windows XP",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -86,6 +107,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.15.2",
+    "credits": "Thank for Mcreator ! - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.soupthemod",
     "lockBaseModFiles": false
   },

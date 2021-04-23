@@ -1,5 +1,8 @@
 {
   "item.soup_the_mod.soup": "Normale soup",
+  "fluid.soupfluid": "Soupfluid",
+  "itemGroup.tabsouplist": "Soup",
   "biome.soup_the_mod.soupbiome": "Soupbiome",
-  "block.soup_the_mod.soupblock": "Solid Soup"
+  "block.soup_the_mod.soupblock": "Solid Soup",
+  "item.soup_the_mod.soupfluid_bucket": "Soupfluid Bucket"
 }

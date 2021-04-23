@@ -3,11 +3,14 @@ loaderVersion="[31,)"
 
 [[mods]]
 modId="soup_the_mod"
-version="1.0.0"
+version="0.2.1"
 displayName="Soup: The mod"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Thank for Mcreator ! - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="thoma, MCreator"
+authors="Windows XP"
+description='''
+A very cool mod!
+'''
 
 [[dependencies.soup_the_mod]]
     modId="minecraft"
