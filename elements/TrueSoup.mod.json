@@ -3,9 +3,9 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "soupier_soup_tex",
+    "texture": "true_soup_tex",
     "customModelName": "Normal",
-    "name": "Souppier soup",
+    "name": "True Soup",
     "rarity": "COMMON",
     "specialInfo": [],
     "creativeTab": {
@@ -13,17 +13,14 @@
     },
     "stackSize": 64,
     "nutritionalValue": 5,
-    "saturation": 0.5,
-    "eatingSpeed": 32,
+    "saturation": 0.3,
+    "eatingSpeed": 20,
     "resultItem": {
       "value": "Items.BOWL"
     },
     "forDogs": false,
     "isAlwaysEdible": false,
     "animation": "drink",
-    "hasGlow": false,
-    "onEaten": {
-      "name": "SoupFoodEaten"
-    }
+    "hasGlow": false
   }
 }

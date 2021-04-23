@@ -1,0 +1,19 @@
+{
+  "group": "soup_the_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soup_the_mod:soupblock"
+    },
+    {
+      "item": "soup_the_mod:soup_ore_block"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "soup_the_mod:true_soup",
+    "count": 1
+  }
+}

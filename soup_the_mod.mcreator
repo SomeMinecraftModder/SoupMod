@@ -302,17 +302,36 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "souppiersoupcraft"
+    },
+    {
+      "name": "TrueSoup",
+      "type": "food",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "true_soup"
+    },
+    {
+      "name": "Truesoupcraft",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "truesoupcraft"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.soup_the_mod.soup": "Normale soup",
       "block.soup_the_mod.soup_ore_ore": "Soup Ore",
-      "item.soup_the_mod.soup_tool_axe": "Soup Axe",
+      "item.soup_the_mod.soup": "Normale soup",
       "item.soup_the_mod.soup_armor_armor_helmet": "Soup Helmet",
+      "item.soup_the_mod.soup_tool_axe": "Soup Axe",
       "fluid.soupfluid": "Soupfluid",
+      "item.soup_the_mod.true_soup": "True Soup",
       "item.soup_the_mod.soup_tool_pickaxe": "Soup Pickaxe",
       "block.soup_the_mod.soupblock": "Solid Soup",
       "item.soup_the_mod.soupfluid_bucket": "Soupfluid Bucket",
@@ -321,7 +340,7 @@
       "item.soup_the_mod.soup_tool_hoe": "Soup Hoe",
       "item.soup_the_mod.soup_armor_armor_leggings": "Soup Leggings",
       "item.soup_the_mod.soup_tool_shovel": "Soup Shovel",
-      "item.soup_the_mod.souppiersoup": "Souppiersoup",
+      "item.soup_the_mod.souppiersoup": "Souppier soup",
       "itemGroup.tabsouplist": "Soup",
       "biome.soup_the_mod.soupbiome": "Soupbiome",
       "block.soup_the_mod.soup_ore_block": "Block of Soup Ore",
@@ -332,9 +351,10 @@
   "workspaceSettings": {
     "modid": "soup_the_mod",
     "modName": "Soup: The mod",
-    "version": "0.2.1",
+    "version": "0.3.3",
     "description": "A very cool mod!",
     "author": "Windows XP",
+    "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],

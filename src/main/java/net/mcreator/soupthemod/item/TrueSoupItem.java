@@ -13,19 +13,15 @@ import net.minecraft.item.Food;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 
-import net.mcreator.soupthemod.procedures.SoupFoodEatenProcedure;
 import net.mcreator.soupthemod.itemgroup.SouplistItemGroup;
 import net.mcreator.soupthemod.SoupTheModModElements;
 
-import java.util.Map;
-import java.util.HashMap;
-
 @SoupTheModModElements.ModElement.Tag
-public class SouppiersoupItem extends SoupTheModModElements.ModElement {
-	@ObjectHolder("soup_the_mod:souppiersoup")
+public class TrueSoupItem extends SoupTheModModElements.ModElement {
+	@ObjectHolder("soup_the_mod:true_soup")
 	public static final Item block = null;
-	public SouppiersoupItem(SoupTheModModElements instance) {
-		super(instance, 30);
+	public TrueSoupItem(SoupTheModModElements instance) {
+		super(instance, 32);
 	}
 
 	@Override
@@ -35,8 +31,13 @@ public class SouppiersoupItem extends SoupTheModModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(SouplistItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(5).saturation(0.5f).build()));
-			setRegistryName("souppiersoup");
+					.food((new Food.Builder()).hunger(5).saturation(0.3f).build()));
+			setRegistryName("true_soup");
+		}
+
+		@Override
+		public int getUseDuration(ItemStack stack) {
+			return 20;
 		}
 
 		@Override
@@ -53,14 +54,6 @@ public class SouppiersoupItem extends SoupTheModModElements.ModElement {
 		public ItemStack onItemUseFinish(ItemStack itemstack, World world, LivingEntity entity) {
 			ItemStack retval = new ItemStack(Items.BOWL, (int) (1));
 			super.onItemUseFinish(itemstack, world, entity);
-			double x = entity.getPosX();
-			double y = entity.getPosY();
-			double z = entity.getPosZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				SoupFoodEatenProcedure.executeProcedure($_dependencies);
-			}
 			if (itemstack.isEmpty()) {
 				return retval;
 			} else {
