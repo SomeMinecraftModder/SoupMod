@@ -53,6 +53,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "soupblockcraft"
+    },
+    {
+      "name": "Normalesoupcraft",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "normalesoupcraft"
     }
   ],
   "variable_elements": [],
