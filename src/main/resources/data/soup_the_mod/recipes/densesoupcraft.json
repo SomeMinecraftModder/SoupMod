@@ -1,0 +1,42 @@
+{
+  "group": "soup_the_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "soup_the_mod:soupblock"
+    },
+    "1": {
+      "item": "soup_the_mod:soupblock"
+    },
+    "2": {
+      "item": "soup_the_mod:soupblock"
+    },
+    "3": {
+      "item": "soup_the_mod:soupblock"
+    },
+    "4": {
+      "item": "soup_the_mod:soupblock"
+    },
+    "5": {
+      "item": "soup_the_mod:soupblock"
+    },
+    "6": {
+      "item": "soup_the_mod:soupblock"
+    },
+    "7": {
+      "item": "soup_the_mod:soupblock"
+    },
+    "8": {
+      "item": "soup_the_mod:soupblock"
+    }
+  },
+  "result": {
+    "item": "soup_the_mod:densesoupblock",
+    "count": 1
+  }
+}

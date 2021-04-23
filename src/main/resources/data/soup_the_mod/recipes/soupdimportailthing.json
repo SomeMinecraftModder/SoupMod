@@ -1,0 +1,24 @@
+{
+  "group": "soup_the_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "soup_the_mod:densesoupblock"
+    },
+    "1": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "2": {
+      "item": "soup_the_mod:densesoupblock"
+    }
+  },
+  "result": {
+    "item": "soup_the_mod:soupdim",
+    "count": 1
+  }
+}

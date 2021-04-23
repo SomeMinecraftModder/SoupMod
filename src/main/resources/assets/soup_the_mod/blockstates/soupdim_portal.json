@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "soup_the_mod:block/soupdim_portal_ew"
+    },
+    "axis=x": {
+      "model": "soup_the_mod:block/soupdim_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "particle": "soup_the_mod:blocks/soupdim_poratil_block",
+    "portal": "soup_the_mod:blocks/soupdim_poratil_block"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        0,
+        0
+      ],
+      "to": [
+        10,
+        16,
+        16
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#portal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#portal"
+        }
+      }
+    }
+  ]
+}
