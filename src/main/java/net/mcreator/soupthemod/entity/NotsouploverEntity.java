@@ -155,9 +155,9 @@ public class NotsouploverEntity extends SoupTheModModElements.ModElement {
 		protected void registerAttributes() {
 			super.registerAttributes();
 			if (this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
-				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
+				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.5);
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
-				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(10);
+				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(15);
 			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
 				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
