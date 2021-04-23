@@ -3,10 +3,11 @@ package net.mcreator.soupthemod.procedures;
 import net.minecraft.world.IWorld;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.item.ItemEntity;
-import net.minecraft.block.Blocks;
 
+import net.mcreator.soupthemod.item.SoupgemItem;
 import net.mcreator.soupthemod.SoupTheModModElements;
 
+import java.util.Random;
 import java.util.Map;
 
 @SoupTheModModElements.ModElement.Tag
@@ -40,9 +41,9 @@ public class NotsouploverEntityDiesProcedure extends SoupTheModModElements.ModEl
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		for (int index0 = 0; index0 < (int) (3); index0++) {
+		for (int index0 = 0; index0 < (int) ((((new Random()).nextInt((int) 2 + 1)) + 1)); index0++) {
 			if (!world.getWorld().isRemote) {
-				ItemEntity entityToSpawn = new ItemEntity(world.getWorld(), x, y, z, new ItemStack(Blocks.DIAMOND_BLOCK, (int) (1)));
+				ItemEntity entityToSpawn = new ItemEntity(world.getWorld(), x, y, z, new ItemStack(SoupgemItem.block, (int) (1)));
 				entityToSpawn.setPickupDelay((int) 10);
 				world.addEntity(entityToSpawn);
 			}
