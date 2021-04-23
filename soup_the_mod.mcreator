@@ -284,16 +284,34 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "soup_armor_armor_boots_recipe"
+    },
+    {
+      "name": "Souppiersoup",
+      "type": "food",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souppiersoup"
+    },
+    {
+      "name": "Souppiersoupcraft",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souppiersoupcraft"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.soup_the_mod.soup_ore_ore": "Soup Ore",
       "item.soup_the_mod.soup": "Normale soup",
-      "item.soup_the_mod.soup_armor_armor_helmet": "Soup Helmet",
+      "block.soup_the_mod.soup_ore_ore": "Soup Ore",
       "item.soup_the_mod.soup_tool_axe": "Soup Axe",
+      "item.soup_the_mod.soup_armor_armor_helmet": "Soup Helmet",
       "fluid.soupfluid": "Soupfluid",
       "item.soup_the_mod.soup_tool_pickaxe": "Soup Pickaxe",
       "block.soup_the_mod.soupblock": "Solid Soup",
@@ -303,6 +321,7 @@
       "item.soup_the_mod.soup_tool_hoe": "Soup Hoe",
       "item.soup_the_mod.soup_armor_armor_leggings": "Soup Leggings",
       "item.soup_the_mod.soup_tool_shovel": "Soup Shovel",
+      "item.soup_the_mod.souppiersoup": "Souppiersoup",
       "itemGroup.tabsouplist": "Soup",
       "biome.soup_the_mod.soupbiome": "Soupbiome",
       "block.soup_the_mod.soup_ore_block": "Block of Soup Ore",

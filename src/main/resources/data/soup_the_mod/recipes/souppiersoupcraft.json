@@ -1,0 +1,25 @@
+{
+  "group": "soup_the_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "item": "soup_the_mod:soupblock"
+    },
+    {
+      "item": "soup_the_mod:soupblock"
+    },
+    {
+      "item": "soup_the_mod:soupblock"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "soup_the_mod:souppiersoup",
+    "count": 1
+  }
+}
