@@ -465,6 +465,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "supersoupcraft"
+    },
+    {
+      "name": "Soupbowl",
+      "type": "structure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soupbowl"
     }
   ],
   "variable_elements": [],
