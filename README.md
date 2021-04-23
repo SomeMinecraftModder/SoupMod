@@ -1,4 +1,4 @@
 # SoupMod
-A mod for minecraft\n
-link for releases:
+A mod for minecraft 
+link for releases: 
 https://discord.gg/pXPSFTsCaE
