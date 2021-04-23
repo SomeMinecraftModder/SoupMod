@@ -44,11 +44,6 @@ public class SoupblockBlock extends SoupTheModModElements.ModElement {
 		}
 
 		@Override
-		public Block.OffsetType getOffsetType() {
-			return Block.OffsetType.XYZ;
-		}
-
-		@Override
 		public boolean canSustainPlant(BlockState state, IBlockReader world, BlockPos pos, Direction direction, IPlantable plantable) {
 			return true;
 		}
