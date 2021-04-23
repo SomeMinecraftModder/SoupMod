@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soup_the_mod:blocks/soup_block_tex",
+    "up": "soup_the_mod:blocks/soup_block_tex",
+    "north": "soup_the_mod:blocks/soup_block_tex",
+    "east": "soup_the_mod:blocks/soup_block_tex",
+    "south": "soup_the_mod:blocks/soup_block_tex",
+    "west": "soup_the_mod:blocks/soup_block_tex",
+    "particle": "soup_the_mod:blocks/soup_block_tex"
+  }
+}
