@@ -6,7 +6,7 @@
       "value": "CUSTOM:Densesoupblock"
     },
     "portalParticles": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "WATER_BUBBLE"
     },
     "portalLuminance": 0.0,
     "portalSound": {

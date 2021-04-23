@@ -356,6 +356,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "soupdimportailthing"
+    },
+    {
+      "name": "Souppainting",
+      "type": "painting",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souppainting"
     }
   ],
   "variable_elements": [],
@@ -370,7 +379,7 @@
       "item.soup_the_mod.true_soup": "True Soup",
       "item.soup_the_mod.soup_tool_pickaxe": "Soup Pickaxe",
       "block.soup_the_mod.soupblock": "Solid Soup",
-      "item.soup_the_mod.soupfluid_bucket": "Soup Bucket",
+      "item.soup_the_mod.soupfluid_bucket": "Soupfluid Bucket",
       "item.soup_the_mod.soup_armor_armor_chestplate": "Soup Chestplate",
       "block.soup_the_mod.densesoupblock": "Dense soup block",
       "item.soup_the_mod.soup_armor_armor_boots": "Soup Boots",
