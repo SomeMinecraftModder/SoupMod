@@ -1,8 +1,20 @@
 {
   "item.soup_the_mod.soup": "Normale soup",
+  "block.soup_the_mod.soup_ore_ore": "Soup Ore",
+  "item.soup_the_mod.soup_tool_axe": "Soup Axe",
+  "item.soup_the_mod.soup_armor_armor_helmet": "Soup Helmet",
   "fluid.soupfluid": "Soupfluid",
+  "item.soup_the_mod.soup_tool_pickaxe": "Soup Pickaxe",
+  "block.soup_the_mod.soupblock": "Solid Soup",
+  "item.soup_the_mod.soupfluid_bucket": "Soupfluid Bucket",
+  "item.soup_the_mod.soup_armor_armor_chestplate": "Soup Chestplate",
+  "item.soup_the_mod.soup_armor_armor_boots": "Soup Boots",
+  "item.soup_the_mod.soup_tool_hoe": "Soup Hoe",
+  "item.soup_the_mod.soup_armor_armor_leggings": "Soup Leggings",
+  "item.soup_the_mod.soup_tool_shovel": "Soup Shovel",
   "itemGroup.tabsouplist": "Soup",
   "biome.soup_the_mod.soupbiome": "Soupbiome",
-  "block.soup_the_mod.soupblock": "Solid Soup",
-  "item.soup_the_mod.soupfluid_bucket": "Soupfluid Bucket"
+  "block.soup_the_mod.soup_ore_block": "Block of Soup Ore",
+  "item.soup_the_mod.soup_ore_ingot": "Soup ingot",
+  "item.soup_the_mod.soup_tool_sword": "Soup Sword"
 }

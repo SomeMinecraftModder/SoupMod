@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "soup_the_mod:items/soup_tool_pickaxe"
+  }
+}

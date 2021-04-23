@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "soup_the_mod:items/soup_armor_body"
+  }
+}

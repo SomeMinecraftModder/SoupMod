@@ -80,6 +80,210 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "souplist"
+    },
+    {
+      "name": "Soup_oreIngot",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_ore_ingot"
+    },
+    {
+      "name": "Soup_oreOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_ore_ore"
+    },
+    {
+      "name": "Soup_oreBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_ore_block"
+    },
+    {
+      "name": "Soup_oreOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_ore_ore_block_recipe"
+    },
+    {
+      "name": "Soup_oreBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_ore_block_ore_recipe"
+    },
+    {
+      "name": "Soup_oreOreSmelting",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_ore_ore_smelting"
+    },
+    {
+      "name": "Souporecraft",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souporecraft"
+    },
+    {
+      "name": "Soup_ToolPickaxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_tool_pickaxe"
+    },
+    {
+      "name": "Soup_ToolAxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_tool_axe"
+    },
+    {
+      "name": "Soup_ToolSword",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_tool_sword"
+    },
+    {
+      "name": "Soup_ToolShovel",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_tool_shovel"
+    },
+    {
+      "name": "Soup_ToolHoe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_tool_hoe"
+    },
+    {
+      "name": "Soup_ToolPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_tool_pickaxe_recipe"
+    },
+    {
+      "name": "Soup_ToolAxeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_tool_axe_recipe"
+    },
+    {
+      "name": "Soup_ToolSwordRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_tool_sword_recipe"
+    },
+    {
+      "name": "Soup_ToolShovelRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_tool_shovel_recipe"
+    },
+    {
+      "name": "Soup_ToolHoeRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_tool_hoe_recipe"
+    },
+    {
+      "name": "Soup_armorArmor",
+      "type": "armor",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Soup_armorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "Soup_armorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_armor_armor_body_recipe"
+    },
+    {
+      "name": "Soup_armorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "Soup_armorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_armor_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -87,11 +291,23 @@
   "language_map": {
     "en_us": {
       "item.soup_the_mod.soup": "Normale soup",
+      "block.soup_the_mod.soup_ore_ore": "Soup Ore",
+      "item.soup_the_mod.soup_tool_axe": "Soup Axe",
+      "item.soup_the_mod.soup_armor_armor_helmet": "Soup Helmet",
       "fluid.soupfluid": "Soupfluid",
+      "item.soup_the_mod.soup_tool_pickaxe": "Soup Pickaxe",
+      "block.soup_the_mod.soupblock": "Solid Soup",
+      "item.soup_the_mod.soupfluid_bucket": "Soupfluid Bucket",
+      "item.soup_the_mod.soup_armor_armor_chestplate": "Soup Chestplate",
+      "item.soup_the_mod.soup_armor_armor_boots": "Soup Boots",
+      "item.soup_the_mod.soup_tool_hoe": "Soup Hoe",
+      "item.soup_the_mod.soup_armor_armor_leggings": "Soup Leggings",
+      "item.soup_the_mod.soup_tool_shovel": "Soup Shovel",
       "itemGroup.tabsouplist": "Soup",
       "biome.soup_the_mod.soupbiome": "Soupbiome",
-      "block.soup_the_mod.soupblock": "Solid Soup",
-      "item.soup_the_mod.soupfluid_bucket": "Soupfluid Bucket"
+      "block.soup_the_mod.soup_ore_block": "Block of Soup Ore",
+      "item.soup_the_mod.soup_ore_ingot": "Soup ingot",
+      "item.soup_the_mod.soup_tool_sword": "Soup Sword"
     }
   },
   "workspaceSettings": {
