@@ -1,0 +1,38 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Ertsuhers",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ertsuhers"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.soup_the_mod.ertsuhers": "Ertsuhers"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "soup_the_mod",
+    "modName": "Soup: The mod",
+    "version": "1.0.0",
+    "author": "thoma, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.soupthemod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}
