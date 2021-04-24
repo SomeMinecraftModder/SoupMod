@@ -30,6 +30,7 @@
   "item.soup_the_mod.supersoup": "Supersoup",
   "item.soup_the_mod.souppier_shovel": "Souppier Shovel",
   "item.soup_the_mod.souppier_hoe": "Souppier Hoe",
+  "fluid.hotsoup": "Hotsoup",
   "item.soup_the_mod.soupfluid_bucket": "Soupfluid Bucket",
   "item.soup_the_mod.soup_bow": "Soup Bow",
   "block.soup_the_mod.souppier_ore_block": "Block of Souppier_ore",
@@ -40,5 +41,6 @@
   "item.soup_the_mod.soup_tool_shovel": "Soup Shovel",
   "itemGroup.tabsouplist": "Soup",
   "item.soup_the_mod.souppier_axe": "Souppier Axe",
-  "biome.soup_the_mod.soupbiome": "Soupbiome"
+  "biome.soup_the_mod.soupbiome": "Soupbiome",
+  "item.soup_the_mod.hotsoup_bucket": "Hotsoup Bucket"
 }

@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "soup_the_mod:hotsoup",
+    "soup_the_mod:hotsoup_flowing"
+  ]
 }
