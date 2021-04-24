@@ -17,9 +17,7 @@ import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
@@ -28,8 +26,8 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.soupthemod.world.dimension.SoupdimDimension;
-import net.mcreator.soupthemod.item.Soup_oreIngotItem;
+import net.mcreator.soupthemod.itemgroup.SouplistItemGroup;
+import net.mcreator.soupthemod.item.Souppier_oreItem;
 import net.mcreator.soupthemod.SoupTheModModElements;
 
 import java.util.Random;
@@ -37,23 +35,23 @@ import java.util.List;
 import java.util.Collections;
 
 @SoupTheModModElements.ModElement.Tag
-public class Soup_oreOreBlock extends SoupTheModModElements.ModElement {
-	@ObjectHolder("soup_the_mod:soup_ore_ore")
+public class Souppier_oreOreBlock extends SoupTheModModElements.ModElement {
+	@ObjectHolder("soup_the_mod:souppier_ore_ore")
 	public static final Block block = null;
-	public Soup_oreOreBlock(SoupTheModModElements instance) {
-		super(instance, 9);
+	public Souppier_oreOreBlock(SoupTheModModElements instance) {
+		super(instance, 47);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.MISC)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(SouplistItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(6f, 8.705505632961241f).lightValue(0)
-					.harvestLevel(4).harvestTool(ToolType.PICKAXE));
-			setRegistryName("soup_ore_ore");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 5f).lightValue(0).harvestLevel(2)
+					.harvestTool(ToolType.PICKAXE));
+			setRegistryName("souppier_ore_ore");
 		}
 
 		@Override
@@ -61,38 +59,29 @@ public class Soup_oreOreBlock extends SoupTheModModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(Soup_oreIngotItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(Souppier_oreItem.block, (int) (1)));
 		}
 	}
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
-			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("soup_the_mod:soupbiome")))
-				biomeCriteria = true;
-			if (!biomeCriteria)
-				continue;
 			biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, new OreFeature(OreFeatureConfig::deserialize) {
 				@Override
 				public boolean place(IWorld world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
 					DimensionType dimensionType = world.getDimension().getType();
 					boolean dimensionCriteria = false;
-					if (dimensionType == SoupdimDimension.type)
-						dimensionCriteria = true;
 					if (dimensionType == DimensionType.OVERWORLD)
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("soup_ore_ore", "soup_ore_ore", blockAt -> {
+			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("souppier_ore_ore", "souppier_ore_ore", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
-				if (blockAt.getBlock() == SoupblockBlock.block.getDefaultState().getBlock())
-					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 3)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(5, 1, 1, 33))));
+			}), block.getDefaultState(), 7)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(11, 1, 1, 63))));
 		}
 	}
 }

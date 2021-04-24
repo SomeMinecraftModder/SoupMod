@@ -1,0 +1,13 @@
+{
+  "group": "soup_the_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soup_the_mod:souppier_ore_block"
+    }
+  ],
+  "result": {
+    "item": "soup_the_mod:souppier_ore",
+    "count": 9
+  }
+}

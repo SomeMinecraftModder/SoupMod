@@ -1,0 +1,42 @@
+{
+  "group": "soup_the_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "soup_the_mod:souppier_ore"
+    },
+    "1": {
+      "item": "soup_the_mod:souppier_ore"
+    },
+    "2": {
+      "item": "soup_the_mod:souppier_ore"
+    },
+    "3": {
+      "item": "soup_the_mod:souppier_ore"
+    },
+    "4": {
+      "item": "soup_the_mod:souppier_ore"
+    },
+    "5": {
+      "item": "soup_the_mod:souppier_ore"
+    },
+    "6": {
+      "item": "soup_the_mod:souppier_ore"
+    },
+    "7": {
+      "item": "soup_the_mod:souppier_ore"
+    },
+    "8": {
+      "item": "soup_the_mod:souppier_ore"
+    }
+  },
+  "result": {
+    "item": "soup_the_mod:souppier_ore_block",
+    "count": 1
+  }
+}

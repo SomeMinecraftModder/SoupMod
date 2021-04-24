@@ -1,0 +1,26 @@
+{
+  "group": "soup_the_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "soup_the_mod:souppier_ore"
+    },
+    "2": {
+      "item": "soup_the_mod:souppier_ore"
+    },
+    "3": {
+      "item": "soup_the_mod:souppier_ore"
+    },
+    "5": {
+      "item": "soup_the_mod:souppier_ore"
+    }
+  },
+  "result": {
+    "item": "soup_the_mod:souppier_armor_boots",
+    "count": 1
+  }
+}

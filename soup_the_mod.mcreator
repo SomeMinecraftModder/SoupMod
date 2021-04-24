@@ -474,6 +474,111 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "soupbowl"
+    },
+    {
+      "name": "Souppier_ore",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souppier_ore"
+    },
+    {
+      "name": "Souppier_oreOre",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souppier_ore_ore"
+    },
+    {
+      "name": "Souppier_oreBlock",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souppier_ore_block"
+    },
+    {
+      "name": "Souppier_oreOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souppier_ore_ore_block_recipe"
+    },
+    {
+      "name": "Souppier_oreBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souppier_ore_block_ore_recipe"
+    },
+    {
+      "name": "Souppier_oreOreSmelting",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souppier_ore_ore_smelting"
+    },
+    {
+      "name": "SouppierArmor",
+      "type": "armor",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souppier_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "SouppierArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souppier_armor_helmet_recipe"
+    },
+    {
+      "name": "SouppierArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souppier_armor_body_recipe"
+    },
+    {
+      "name": "SouppierArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souppier_armor_leggings_recipe"
+    },
+    {
+      "name": "SouppierArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souppier_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -482,10 +587,14 @@
     "en_us": {
       "item.soup_the_mod.soup": "Normale soup",
       "block.soup_the_mod.soup_ore_ore": "Soup Ore",
+      "item.soup_the_mod.souppier_ore": "Souppier ore",
       "item.soup_the_mod.glowingsoup": "Glowingsoup",
       "fluid.soupfluid": "Soupfluid",
+      "item.soup_the_mod.souppier_armor_helmet": "Souppier Helmet",
       "item.soup_the_mod.soup_tool_pickaxe": "Soup Pickaxe",
       "entity.soup_the_mod.notsouplover": "Notsouplover",
+      "item.soup_the_mod.souppier_armor_boots": "Souppier Boots",
+      "item.soup_the_mod.souppier_armor_leggings": "Souppier Leggings",
       "item.soup_the_mod.soup_armor_armor_chestplate": "Soup Chestplate",
       "block.soup_the_mod.soupblock": "Solid Soup",
       "block.soup_the_mod.densesoupblock": "Dense soup block",
@@ -497,6 +606,7 @@
       "item.soup_the_mod.souppiersoup": "Souppier soup",
       "item.soup_the_mod.soupdim": "Soupdim Portal Igniter",
       "block.soup_the_mod.soup_ore_block": "Block of Soup Ore",
+      "block.soup_the_mod.souppier_ore_ore": "Souppier_ore Ore",
       "item.soup_the_mod.soup_ore_ingot": "Soup ingot",
       "item.soup_the_mod.soup_tool_sword": "Soup Sword",
       "item.soup_the_mod.soup_armor_armor_helmet": "Soup Helmet",
@@ -504,6 +614,8 @@
       "item.soup_the_mod.true_soup": "True Soup",
       "item.soup_the_mod.supersoup": "Supersoup",
       "item.soup_the_mod.soupfluid_bucket": "Soupfluid Bucket",
+      "block.soup_the_mod.souppier_ore_block": "Block of Souppier Ore",
+      "item.soup_the_mod.souppier_armor_chestplate": "Souppier Chestplate",
       "item.soup_the_mod.soup_tool_shovel": "Soup Shovel",
       "itemGroup.tabsouplist": "Soup",
       "biome.soup_the_mod.soupbiome": "Soupbiome"
@@ -511,10 +623,14 @@
     "fr_fr": {
       "item.soup_the_mod.soup": "Soupe normale",
       "block.soup_the_mod.soup_ore_ore": "Minerais de soupe",
+      "item.soup_the_mod.souppier_ore": "Souppier_ore",
       "item.soup_the_mod.glowingsoup": "Glowingsoup",
       "fluid.soupfluid": "Soupe",
+      "item.soup_the_mod.souppier_armor_helmet": "Souppier Helmet",
       "item.soup_the_mod.soup_tool_pickaxe": "Soup Pickaxe",
       "entity.soup_the_mod.notsouplover": "Notsouplover",
+      "item.soup_the_mod.souppier_armor_boots": "Souppier Boots",
+      "item.soup_the_mod.souppier_armor_leggings": "Souppier Leggings",
       "item.soup_the_mod.soup_armor_armor_chestplate": "Soup Chestplate",
       "block.soup_the_mod.soupblock": "Solid Soup",
       "block.soup_the_mod.densesoupblock": "Densesoupblock",
@@ -526,6 +642,7 @@
       "item.soup_the_mod.souppiersoup": "Souppier soup",
       "item.soup_the_mod.soupdim": "Soupdim Portal Igniter",
       "block.soup_the_mod.soup_ore_block": "Block of Soup Ore",
+      "block.soup_the_mod.souppier_ore_ore": "Souppier_ore Ore",
       "item.soup_the_mod.soup_ore_ingot": "Soup ingot",
       "item.soup_the_mod.soup_tool_sword": "Soup Sword",
       "item.soup_the_mod.soup_armor_armor_helmet": "Casque en soup",
@@ -533,6 +650,8 @@
       "item.soup_the_mod.true_soup": "True Soup",
       "item.soup_the_mod.supersoup": "Supersoup",
       "item.soup_the_mod.soupfluid_bucket": "Soupfluid Bucket",
+      "block.soup_the_mod.souppier_ore_block": "Block of Souppier_ore",
+      "item.soup_the_mod.souppier_armor_chestplate": "Souppier Chestplate",
       "item.soup_the_mod.soup_tool_shovel": "Soup Shovel",
       "itemGroup.tabsouplist": "Soup",
       "biome.soup_the_mod.soupbiome": "Soupbiome"
