@@ -1,0 +1,19 @@
+{
+  "group": "soup_the_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soup_the_mod:soupgem"
+    },
+    {
+      "item": "minecraft:bow"
+    },
+    {
+      "item": "soup_the_mod:soup"
+    }
+  ],
+  "result": {
+    "item": "soup_the_mod:soup_bow",
+    "count": 1
+  }
+}

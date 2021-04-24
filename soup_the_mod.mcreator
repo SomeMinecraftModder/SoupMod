@@ -669,6 +669,97 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "souppier_hoe_recipe"
+    },
+    {
+      "name": "InvertedsoupFoodEaten",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "invertedsoup_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Invertedsoup",
+      "type": "food",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "invertedsoup"
+    },
+    {
+      "name": "Souparrow",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souparrow"
+    },
+    {
+      "name": "SoupBowBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_bow_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoupBow",
+      "type": "gun",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soup_bow"
+    },
+    {
+      "name": "Invertedsoupcraft",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "invertedsoupcraft"
+    },
+    {
+      "name": "Soupbowcraft",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soupbowcraft"
     }
   ],
   "variable_elements": [],
@@ -685,6 +776,7 @@
       "entity.soup_the_mod.notsouplover": "Notsouplover",
       "item.soup_the_mod.souppier_armor_boots": "Souppier Boots",
       "item.soup_the_mod.souppier_armor_leggings": "Souppier Leggings",
+      "item.soup_the_mod.invertedsoup": "Inverted soup",
       "item.soup_the_mod.soup_armor_armor_chestplate": "Soup Chestplate",
       "block.soup_the_mod.soupblock": "Solid Soup",
       "block.soup_the_mod.densesoupblock": "Dense soup block",
@@ -706,8 +798,10 @@
       "item.soup_the_mod.souppier_shovel": "Souppier Shovel",
       "item.soup_the_mod.souppier_hoe": "Souppier Hoe",
       "item.soup_the_mod.soupfluid_bucket": "Soupfluid Bucket",
+      "item.soup_the_mod.soup_bow": "Soup Bow",
       "block.soup_the_mod.souppier_ore_block": "Block of Souppier Ore",
       "item.soup_the_mod.souppier_sword": "Souppier Sword",
+      "item.soup_the_mod.souparrow": "Soup arrow",
       "item.soup_the_mod.souppier_armor_chestplate": "Souppier Chestplate",
       "item.soup_the_mod.souppier_pickaxe": "Souppier Pickaxe",
       "item.soup_the_mod.soup_tool_shovel": "Soup Shovel",
@@ -726,6 +820,7 @@
       "entity.soup_the_mod.notsouplover": "Notsouplover",
       "item.soup_the_mod.souppier_armor_boots": "Souppier Boots",
       "item.soup_the_mod.souppier_armor_leggings": "Souppier Leggings",
+      "item.soup_the_mod.invertedsoup": "Inverted soup",
       "item.soup_the_mod.soup_armor_armor_chestplate": "Soup Chestplate",
       "block.soup_the_mod.soupblock": "Solid Soup",
       "block.soup_the_mod.densesoupblock": "Densesoupblock",
@@ -747,8 +842,10 @@
       "item.soup_the_mod.souppier_shovel": "Souppier Shovel",
       "item.soup_the_mod.souppier_hoe": "Souppier Hoe",
       "item.soup_the_mod.soupfluid_bucket": "Soupfluid Bucket",
+      "item.soup_the_mod.soup_bow": "Soup Bow",
       "block.soup_the_mod.souppier_ore_block": "Block of Souppier_ore",
       "item.soup_the_mod.souppier_sword": "Souppier Sword",
+      "item.soup_the_mod.souparrow": "Soup arrow",
       "item.soup_the_mod.souppier_armor_chestplate": "Souppier Chestplate",
       "item.soup_the_mod.souppier_pickaxe": "Souppier Pickaxe",
       "item.soup_the_mod.soup_tool_shovel": "Soup Shovel",
