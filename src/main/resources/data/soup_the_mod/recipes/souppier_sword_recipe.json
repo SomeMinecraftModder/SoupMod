@@ -1,0 +1,24 @@
+{
+  "group": "soup_the_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "soup_the_mod:souppier_ore"
+    },
+    "1": {
+      "item": "soup_the_mod:souppier_ore"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "soup_the_mod:souppier_sword",
+    "count": 1
+  }
+}

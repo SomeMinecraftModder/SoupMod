@@ -27,10 +27,15 @@
   "item.soup_the_mod.soup_tool_axe": "Hache en soupe",
   "item.soup_the_mod.true_soup": "True Soup",
   "item.soup_the_mod.supersoup": "Supersoup",
+  "item.soup_the_mod.souppier_shovel": "Souppier Shovel",
+  "item.soup_the_mod.souppier_hoe": "Souppier Hoe",
   "item.soup_the_mod.soupfluid_bucket": "Soupfluid Bucket",
   "block.soup_the_mod.souppier_ore_block": "Block of Souppier_ore",
+  "item.soup_the_mod.souppier_sword": "Souppier Sword",
   "item.soup_the_mod.souppier_armor_chestplate": "Souppier Chestplate",
+  "item.soup_the_mod.souppier_pickaxe": "Souppier Pickaxe",
   "item.soup_the_mod.soup_tool_shovel": "Soup Shovel",
   "itemGroup.tabsouplist": "Soup",
+  "item.soup_the_mod.souppier_axe": "Souppier Axe",
   "biome.soup_the_mod.soupbiome": "Soupbiome"
 }
