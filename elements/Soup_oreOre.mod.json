@@ -92,10 +92,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "CUSTOM:Soupdim",
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Soupbiome"

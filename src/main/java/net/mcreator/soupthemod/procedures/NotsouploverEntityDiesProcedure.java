@@ -4,6 +4,7 @@ import net.minecraft.world.IWorld;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.item.ItemEntity;
 
+import net.mcreator.soupthemod.item.SouppiergemItem;
 import net.mcreator.soupthemod.item.SoupgemItem;
 import net.mcreator.soupthemod.SoupTheModModElements;
 
@@ -44,6 +45,13 @@ public class NotsouploverEntityDiesProcedure extends SoupTheModModElements.ModEl
 		for (int index0 = 0; index0 < (int) ((((new Random()).nextInt((int) 2 + 1)) + 1)); index0++) {
 			if (!world.getWorld().isRemote) {
 				ItemEntity entityToSpawn = new ItemEntity(world.getWorld(), x, y, z, new ItemStack(SoupgemItem.block, (int) (1)));
+				entityToSpawn.setPickupDelay((int) 10);
+				world.addEntity(entityToSpawn);
+			}
+		}
+		if ((((new Random()).nextInt((int) 5 + 1)) == 0)) {
+			if (!world.getWorld().isRemote) {
+				ItemEntity entityToSpawn = new ItemEntity(world.getWorld(), x, y, z, new ItemStack(SouppiergemItem.block, (int) (1)));
 				entityToSpawn.setPickupDelay((int) 10);
 				world.addEntity(entityToSpawn);
 			}

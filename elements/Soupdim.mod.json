@@ -12,7 +12,7 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Soupdim Portal Igniter",
+    "igniterName": "Soup Portal Igniter",
     "igniterTab": {
       "value": "TOOLS"
     },
@@ -35,9 +35,9 @@
       "value": -16738048,
       "falpha": 0.0
     },
-    "canRespawnHere": false,
+    "canRespawnHere": true,
     "hasFog": true,
-    "hasWeather": true,
+    "hasWeather": false,
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",

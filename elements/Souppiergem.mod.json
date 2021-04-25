@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "soup_gem_tex",
+    "texture": "souppier_gem_tex",
     "customModelName": "Normal",
-    "name": "Soup gem",
+    "name": "Souppier gem",
     "rarity": "RARE",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,

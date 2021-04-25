@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "soup_the_mod:soupgem"
+    },
+    "title": {
+      "translate": "advancements.thesoupside.title"
+    },
+    "description": {
+      "translate": "advancements.thesoupside.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thesoupside": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "soup_the_mod:soupdim"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "soup_the_mod:isthissoup"
+}

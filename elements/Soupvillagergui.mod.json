@@ -1,0 +1,64 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 134,
+          "y": 75
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 166,
+          "y": 75
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Trade",
+          "onClick": {
+            "name": "Soupvillagerguithing"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Trade",
+          "x": 134,
+          "y": 93
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "soup_villager_gui_2.png",
+          "use1Xscale": true,
+          "name": "soup_villager_gui_2.png",
+          "x": 135,
+          "y": 49
+        }
+      }
+    ]
+  }
+}

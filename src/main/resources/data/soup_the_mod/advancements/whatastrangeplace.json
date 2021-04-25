@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "soup_the_mod:soupblock"
+    },
+    "title": {
+      "translate": "advancements.whatastrangeplace.title"
+    },
+    "description": {
+      "translate": "advancements.whatastrangeplace.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "whatastrangeplace": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "soup_the_mod:soupbiome"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2
+  },
+  "parent": "soup_the_mod:isthissoup"
+}

@@ -38,6 +38,7 @@ import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.dimension.Dimension;
+import net.minecraft.world.chunk.Chunk;
 import net.minecraft.world.biome.provider.BiomeProvider;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
@@ -673,6 +674,24 @@ public class SoupdimDimension extends SoupTheModModElements.ModElement {
 		}
 
 		@Override
+		public void calculateInitialWeather() {
+		}
+
+		@Override
+		public void updateWeather(Runnable defaultWeather) {
+		}
+
+		@Override
+		public boolean canDoLightning(Chunk chunk) {
+			return false;
+		}
+
+		@Override
+		public boolean canDoRainSnowIce(Chunk chunk) {
+			return false;
+		}
+
+		@Override
 		@OnlyIn(Dist.CLIENT)
 		public Vec3d getFogColor(float cangle, float ticks) {
 			return new Vec3d(0, 0.6, 0);
@@ -693,7 +712,7 @@ public class SoupdimDimension extends SoupTheModModElements.ModElement {
 
 		@Override
 		public boolean canRespawnHere() {
-			return false;
+			return true;
 		}
 
 		@OnlyIn(Dist.CLIENT)

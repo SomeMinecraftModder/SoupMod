@@ -3,18 +3,18 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "soup_gem_tex",
+    "texture": "gem_of_flying",
     "customModelName": "Normal",
-    "name": "Soup gem",
-    "rarity": "RARE",
+    "name": "Gem of Fying",
+    "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "MISC"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
-    "damageCount": 0,
+    "damageCount": 500,
     "recipeRemainder": {
       "value": ""
     },
@@ -24,9 +24,12 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": true,
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64
+    "inventoryStackSize": 64,
+    "onItemInUseTick": {
+      "name": "GemofflyingItemInHandTick"
+    }
   }
 }
