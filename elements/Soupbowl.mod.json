@@ -1,19 +1,20 @@
 {
-  "_fv": 13,
+  "_fv": 18,
   "_type": "structure",
   "definition": {
     "structure": "big_soup_bowl",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 8000,
+    "spawnProbability": 50000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": 1,
+    "spawnHeightOffset": 0,
     "spawnXOffset": 0,
     "spawnZOffset": 0,
     "spawnWorldTypes": [
-      "Surface"
+      "Surface",
+      "CUSTOM:Soupdim"
     ],
     "restrictionBlocks": [],
     "restrictionBiomes": [

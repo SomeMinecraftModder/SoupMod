@@ -3,10 +3,10 @@ loaderVersion="[31,)"
 
 [[mods]]
 modId="soup_the_mod"
-version="0.9.0"
+version="0.10.1"
 displayName="Soup: The mod"
-credits="Thank for Mcreator ! - https://mcreator.net/about"
-displayURL="https://mcreator.net"
+credits="Thank Mcreator ! - https://mcreator.net/about"
+displayURL="https://webgarbage.fr"
 authors="Windows XP"
 description='''
 A very cool mod!

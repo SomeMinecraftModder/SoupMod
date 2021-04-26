@@ -5,6 +5,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.soupthemod.SoupTheModModElements;
+import net.mcreator.soupthemod.SoupTheModMod;
 
 import java.util.Map;
 
@@ -17,7 +18,7 @@ public class SoupFoodEatenProcedure extends SoupTheModModElements.ModElement {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure SoupFoodEaten!");
+				SoupTheModMod.LOGGER.warn("Failed to load dependency entity for procedure SoupFoodEaten!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

@@ -1,24 +1,7 @@
 {
-  "_fv": 13,
+  "_fv": 18,
   "_type": "dimension",
   "definition": {
-    "portalFrame": {
-      "value": "CUSTOM:Densesoupblock"
-    },
-    "portalParticles": {
-      "value": "WATER_BUBBLE"
-    },
-    "portalLuminance": 0.0,
-    "portalSound": {
-      "value": "block.portal.ambient"
-    },
-    "igniterName": "Soup Portal Igniter",
-    "igniterTab": {
-      "value": "TOOLS"
-    },
-    "texture": "soupdim_thing",
-    "portalTexture": "soupdim_poratil_block",
-    "enablePortal": true,
     "biomesInDimension": [
       {
         "value": "CUSTOM:Soupbiome"
@@ -37,11 +20,27 @@
     },
     "canRespawnHere": true,
     "hasFog": true,
-    "hasWeather": false,
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
     "hasSkyLight": false,
-    "imitateOverworldBehaviour": false
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:Densesoupblock"
+    },
+    "portalParticles": {
+      "value": "WATER_BUBBLE"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Soup Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "soupdim_thing",
+    "portalTexture": "soupdim_poratil_block",
+    "enablePortal": true
   }
 }

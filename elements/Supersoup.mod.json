@@ -1,11 +1,11 @@
 {
-  "_fv": 13,
+  "_fv": 18,
   "_type": "food",
   "definition": {
     "renderType": 0,
     "texture": "super_soup_tex",
     "customModelName": "Normal",
-    "name": "Supersoup",
+    "name": "Super soup",
     "rarity": "RARE",
     "specialInfo": [],
     "creativeTab": {

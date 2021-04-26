@@ -2,7 +2,10 @@
 package net.mcreator.soupthemod.world.structure;
 
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.gen.placement.Placement;
@@ -24,53 +27,62 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Mirror;
 
+import net.mcreator.soupthemod.world.dimension.SoupdimDimension;
 import net.mcreator.soupthemod.SoupTheModModElements;
 
 import java.util.Random;
 
 @SoupTheModModElements.ModElement.Tag
 public class SoupbowlStructure extends SoupTheModModElements.ModElement {
+	private static final Feature<NoFeatureConfig> feature = new Feature<NoFeatureConfig>(NoFeatureConfig::deserialize) {
+		@Override
+		public boolean place(IWorld world, ChunkGenerator generator, Random random, BlockPos pos, NoFeatureConfig config) {
+			int ci = (pos.getX() >> 4) << 4;
+			int ck = (pos.getZ() >> 4) << 4;
+			DimensionType dimensionType = world.getDimension().getType();
+			boolean dimensionCriteria = false;
+			if (dimensionType == DimensionType.OVERWORLD)
+				dimensionCriteria = true;
+			if (dimensionType == SoupdimDimension.type)
+				dimensionCriteria = true;
+			if (!dimensionCriteria)
+				return false;
+			if ((random.nextInt(1000000) + 1) <= 50000) {
+				int count = random.nextInt(1) + 1;
+				for (int a = 0; a < count; a++) {
+					int i = ci + random.nextInt(16);
+					int k = ck + random.nextInt(16);
+					int j = world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);
+					j -= 1;
+					Rotation rotation = Rotation.values()[random.nextInt(3)];
+					Mirror mirror = Mirror.values()[random.nextInt(2)];
+					BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
+					int x = spawnTo.getX();
+					int y = spawnTo.getY();
+					int z = spawnTo.getZ();
+					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
+							.getTemplateDefaulted(new ResourceLocation("soup_the_mod", "big_soup_bowl"));
+					if (template == null)
+						return false;
+					template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
+							.addProcessor(BlockIgnoreStructureProcessor.AIR_AND_STRUCTURE_BLOCK).setChunk(null).setIgnoreEntities(false));
+				}
+			}
+			return true;
+		}
+	};
 	public SoupbowlStructure(SoupTheModModElements instance) {
 		super(instance, 45);
+		FMLJavaModLoadingContext.get().getModEventBus().register(this);
+	}
+
+	@SubscribeEvent
+	public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
+		event.getRegistry().register(feature.setRegistryName("soupbowl"));
 	}
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		Feature<NoFeatureConfig> feature = new Feature<NoFeatureConfig>(NoFeatureConfig::deserialize) {
-			@Override
-			public boolean place(IWorld world, ChunkGenerator generator, Random random, BlockPos pos, NoFeatureConfig config) {
-				int ci = (pos.getX() >> 4) << 4;
-				int ck = (pos.getZ() >> 4) << 4;
-				DimensionType dimensionType = world.getDimension().getType();
-				boolean dimensionCriteria = false;
-				if (dimensionType == DimensionType.OVERWORLD)
-					dimensionCriteria = true;
-				if (!dimensionCriteria)
-					return false;
-				if ((random.nextInt(1000000) + 1) <= 8000) {
-					int count = random.nextInt(1) + 1;
-					for (int a = 0; a < count; a++) {
-						int i = ci + random.nextInt(16);
-						int k = ck + random.nextInt(16);
-						int j = world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);
-						j -= 1;
-						Rotation rotation = Rotation.values()[random.nextInt(3)];
-						Mirror mirror = Mirror.values()[random.nextInt(2)];
-						BlockPos spawnTo = new BlockPos(i + 0, j + 1, k + 0);
-						int x = spawnTo.getX();
-						int y = spawnTo.getY();
-						int z = spawnTo.getZ();
-						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("soup_the_mod", "big_soup_bowl"));
-						if (template == null)
-							return false;
-						template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
-								.addProcessor(BlockIgnoreStructureProcessor.AIR_AND_STRUCTURE_BLOCK).setChunk(null).setIgnoreEntities(false));
-					}
-				}
-				return true;
-			}
-		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("soup_the_mod:soupbiome")))

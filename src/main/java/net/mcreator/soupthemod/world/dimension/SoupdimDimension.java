@@ -693,7 +693,7 @@ public class SoupdimDimension extends SoupTheModModElements.ModElement {
 
 		@Override
 		@OnlyIn(Dist.CLIENT)
-		public Vec3d getFogColor(float cangle, float ticks) {
+		public Vec3d getFogColor(float celestialAngle, float partialTicks) {
 			return new Vec3d(0, 0.6, 0);
 		}
 

@@ -55,8 +55,8 @@ public class SoupbiomeBiome extends SoupTheModModElements.ModElement {
 			setRegistryName("soupbiome");
 			DefaultBiomeFeatures.addCarvers(this);
 			DefaultBiomeFeatures.addMonsterRooms(this);
-			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addOres(this);
+			DefaultBiomeFeatures.addFreezeTopLayer(this);
 			this.addStructure(Feature.WOODLAND_MANSION.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
 			this.addStructure(Feature.JUNGLE_TEMPLE.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
 			this.addStructure(Feature.DESERT_PYRAMID.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));

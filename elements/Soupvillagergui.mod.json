@@ -1,5 +1,5 @@
 {
-  "_fv": 13,
+  "_fv": 18,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -52,11 +52,24 @@
       {
         "type": "image",
         "data": {
-          "image": "soup_villager_gui_2.png",
+          "image": "soup_villager_gui_3.png",
           "use1Xscale": true,
-          "name": "soup_villager_gui_2.png",
-          "x": 135,
-          "y": 49
+          "name": "soup_villager_gui_3.png",
+          "x": 191,
+          "y": 63
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Soup villager",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Soup villager",
+          "x": 178,
+          "y": 42
         }
       }
     ]
