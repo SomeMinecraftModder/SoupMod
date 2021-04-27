@@ -1024,6 +1024,45 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "invisiblesoup"
+    },
+    {
+      "name": "HacksoupFoodEaten",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hacksoup_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hacksoup",
+      "type": "food",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hacksoup"
+    },
+    {
+      "name": "Hacksoupcraft",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hacksoupcraft"
     }
   ],
   "variable_elements": [],
@@ -1033,15 +1072,15 @@
       "item.soup_the_mod.soup": "Basic soup",
       "block.soup_the_mod.soup_ore_ore": "Soup Ore",
       "item.soup_the_mod.souppier_ore": "Souppier ore",
-      "item.soup_the_mod.invisiblesoup": "Invisible soup",
-      "item.soup_the_mod.glowingsoup": "Glowingsoup",
       "item.soup_the_mod.souppier_armor_helmet": "Souppier Helmet",
-      "entity.soup_the_mod.notsouplover": "Notsouplover",
+      "item.soup_the_mod.glowingsoup": "Glowingsoup",
+      "item.soup_the_mod.invisiblesoup": "Invisible soup",
       "item.soup_the_mod.souppier_armor_boots": "Souppier Boots",
+      "entity.soup_the_mod.notsouplover": "Notsouplover",
       "item.soup_the_mod.invertedsoup": "Inverted soup",
-      "item.soup_the_mod.soup_armor_armor_chestplate": "Soup Chestplate",
-      "block.soup_the_mod.soupblock": "Solid Soup",
       "item.soup_the_mod.speedsoup": "Speed soup",
+      "block.soup_the_mod.soupblock": "Solid Soup",
+      "item.soup_the_mod.soup_armor_armor_chestplate": "Soup Chestplate",
       "block.soup_the_mod.densesoupblock": "Dense soup block",
       "item.soup_the_mod.soupdim": "Soup Portal Igniter",
       "entity.soup_the_mod.soupvillager": "Soupvillager",
@@ -1085,6 +1124,7 @@
       "block.soup_the_mod.souppier_ore_block": "Block of Souppier Ore",
       "item.soup_the_mod.gemofflying": "Gem of Fying",
       "item.soup_the_mod.souppier_armor_chestplate": "Souppier Chestplate",
+      "item.soup_the_mod.hacksoup": "Hack soup",
       "item.soup_the_mod.souppier_axe": "Souppier Axe",
       "biome.soup_the_mod.soupbiome": "Soupbiome",
       "item.soup_the_mod.hotsoup_bucket": "Hotsoup Bucket"
@@ -1093,15 +1133,15 @@
       "item.soup_the_mod.soup": "Soupe normale",
       "block.soup_the_mod.soup_ore_ore": "Minerais de soupe",
       "item.soup_the_mod.souppier_ore": "Souppier_ore",
-      "item.soup_the_mod.invisiblesoup": "Invisible soup",
-      "item.soup_the_mod.glowingsoup": "Glowingsoup",
       "item.soup_the_mod.souppier_armor_helmet": "Souppier Helmet",
-      "entity.soup_the_mod.notsouplover": "Notsouplover",
+      "item.soup_the_mod.glowingsoup": "Glowingsoup",
+      "item.soup_the_mod.invisiblesoup": "Invisible soup",
       "item.soup_the_mod.souppier_armor_boots": "Souppier Boots",
+      "entity.soup_the_mod.notsouplover": "Notsouplover",
       "item.soup_the_mod.invertedsoup": "Inverted soup",
-      "item.soup_the_mod.soup_armor_armor_chestplate": "Soup Chestplate",
-      "block.soup_the_mod.soupblock": "Solid Soup",
       "item.soup_the_mod.speedsoup": "Speed soup",
+      "block.soup_the_mod.soupblock": "Solid Soup",
+      "item.soup_the_mod.soup_armor_armor_chestplate": "Soup Chestplate",
       "block.soup_the_mod.densesoupblock": "Densesoupblock",
       "item.soup_the_mod.soupdim": "Soupdim Portal Igniter",
       "entity.soup_the_mod.soupvillager": "Soupvillager",
@@ -1145,6 +1185,7 @@
       "block.soup_the_mod.souppier_ore_block": "Block of Souppier_ore",
       "item.soup_the_mod.gemofflying": "Gem of Fying",
       "item.soup_the_mod.souppier_armor_chestplate": "Souppier Chestplate",
+      "item.soup_the_mod.hacksoup": "Hack soup",
       "item.soup_the_mod.souppier_axe": "Souppier Axe",
       "biome.soup_the_mod.soupbiome": "Soupbiome",
       "item.soup_the_mod.hotsoup_bucket": "Hotsoup Bucket"
