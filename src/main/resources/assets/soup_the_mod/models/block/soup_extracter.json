@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soup_the_mod:blocks/soup_extracter",
+    "up": "soup_the_mod:blocks/soup_extracter",
+    "north": "soup_the_mod:blocks/soup_extracter",
+    "east": "soup_the_mod:blocks/soup_extracter",
+    "south": "soup_the_mod:blocks/soup_extracter",
+    "west": "soup_the_mod:blocks/soup_extracter",
+    "particle": "soup_the_mod:blocks/soup_extracter"
+  }
+}

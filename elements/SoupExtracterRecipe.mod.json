@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Soup"
+      },
+      {
+        "value": "CUSTOM:Soupgem"
+      },
+      {
+        "value": "CUSTOM:Soup"
+      },
+      {
+        "value": "CUSTOM:SoupSteel"
+      },
+      {
+        "value": "CUSTOM:SoupSteelCasing"
+      },
+      {
+        "value": "CUSTOM:SoupSteel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CRAFTING_TABLE"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SoupExtracter"
+    },
+    "name": "soup_extracter_recipe",
+    "namespace": "mod"
+  }
+}

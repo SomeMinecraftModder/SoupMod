@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "soup_the_mod:blocks/soupwood_log_side",
+    "particle": "soup_the_mod:blocks/soupwood_log_side"
+  }
+}

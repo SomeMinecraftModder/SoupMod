@@ -1,0 +1,13 @@
+{
+  "group": "soup_the_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:soupwood_log"
+    }
+  ],
+  "result": {
+    "item": "soup_the_mod:soupwood_planks",
+    "count": 4
+  }
+}

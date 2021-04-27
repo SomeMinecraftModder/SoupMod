@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "soup_the_mod:blocks/soupwood_planks",
+    "top": "soup_the_mod:blocks/soupwood_planks",
+    "side": "soup_the_mod:blocks/soupwood_planks"
+  }
+}

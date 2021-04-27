@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soup_the_mod:blocks/soup_steel_case",
+    "up": "soup_the_mod:blocks/soup_steel_case",
+    "north": "soup_the_mod:blocks/soup_steel_case",
+    "east": "soup_the_mod:blocks/soup_steel_case",
+    "south": "soup_the_mod:blocks/soup_steel_case",
+    "west": "soup_the_mod:blocks/soup_steel_case",
+    "particle": "soup_the_mod:blocks/soup_fluid_tex_no_so_still"
+  }
+}

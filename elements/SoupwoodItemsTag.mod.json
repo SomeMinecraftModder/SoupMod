@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:SoupwoodWood"
+      },
+      {
+        "value": "CUSTOM:SoupwoodLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "soupwood_log",
+    "namespace": "forge"
+  }
+}

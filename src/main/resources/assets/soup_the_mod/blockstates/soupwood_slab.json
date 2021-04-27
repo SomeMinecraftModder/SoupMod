@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "soup_the_mod:block/soupwood_slab"
+    },
+    "type=top": {
+      "model": "soup_the_mod:block/soupwood_slab_top"
+    },
+    "type=double": {
+      "model": "soup_the_mod:block/soupwood_slab_full"
+    }
+  }
+}

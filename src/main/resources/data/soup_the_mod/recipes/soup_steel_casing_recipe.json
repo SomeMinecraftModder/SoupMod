@@ -1,0 +1,42 @@
+{
+  "group": "soup_the_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "soup_the_mod:soup_steel"
+    },
+    "1": {
+      "item": "minecraft:glass"
+    },
+    "2": {
+      "item": "soup_the_mod:soup_steel"
+    },
+    "3": {
+      "item": "minecraft:glass"
+    },
+    "4": {
+      "item": "soup_the_mod:souppiersoup"
+    },
+    "5": {
+      "item": "minecraft:glass"
+    },
+    "6": {
+      "item": "soup_the_mod:soup_steel"
+    },
+    "7": {
+      "item": "minecraft:glass"
+    },
+    "8": {
+      "item": "soup_the_mod:soup_steel"
+    }
+  },
+  "result": {
+    "item": "soup_the_mod:soup_steel_casing",
+    "count": 1
+  }
+}

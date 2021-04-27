@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "soup_the_mod:blocks/soupwood_planks",
+    "particle": "soup_the_mod:blocks/soupwood_planks"
+  }
+}

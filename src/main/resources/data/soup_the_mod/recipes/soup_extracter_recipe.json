@@ -1,0 +1,36 @@
+{
+  "group": "soup_the_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "soup_the_mod:soup"
+    },
+    "1": {
+      "item": "soup_the_mod:soupgem"
+    },
+    "2": {
+      "item": "soup_the_mod:soup"
+    },
+    "3": {
+      "item": "soup_the_mod:soup_steel"
+    },
+    "4": {
+      "item": "soup_the_mod:soup_steel_casing"
+    },
+    "5": {
+      "item": "soup_the_mod:soup_steel"
+    },
+    "7": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "soup_the_mod:soup_extracter",
+    "count": 1
+  }
+}
