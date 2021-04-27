@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
-    "group": "soup",
+    "recipeRetstackSize": 9,
+    "group": "",
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Soupgem"
-      },
-      {
-        "value": "CUSTOM:Soupgem"
-      },
-      {
-        "value": "CUSTOM:Soupgem"
-      },
-      {
-        "value": "CUSTOM:Soupgem"
-      },
-      {
-        "value": "CUSTOM:Soupblock"
-      },
-      {
-        "value": "CUSTOM:Soupgem"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Steelbowl"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SoupSteelBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Supersoup"
+      "value": "CUSTOM:SoupSteel"
     },
-    "name": "supersoupcraft",
+    "name": "soup_steel_block_ore_recipe",
     "namespace": "mod"
   }
 }

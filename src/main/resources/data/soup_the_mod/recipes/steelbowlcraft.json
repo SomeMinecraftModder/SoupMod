@@ -1,0 +1,23 @@
+{
+  "group": "soup_the_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "soup_the_mod:soup_steel"
+    },
+    "2": {
+      "item": "soup_the_mod:soup_steel"
+    },
+    "4": {
+      "item": "soup_the_mod:soup_steel"
+    }
+  },
+  "result": {
+    "item": "soup_the_mod:steelbowl",
+    "count": 1
+  }
+}

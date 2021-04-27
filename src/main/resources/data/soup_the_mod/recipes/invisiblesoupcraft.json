@@ -6,14 +6,17 @@
       "item": "soup_the_mod:soupblock"
     },
     {
-      "item": "soup_the_mod:soup_ore_block"
+      "item": "soup_the_mod:souppiergem"
+    },
+    {
+      "item": "soup_the_mod:soupblock"
     },
     {
       "item": "minecraft:bowl"
     }
   ],
   "result": {
-    "item": "soup_the_mod:true_soup",
+    "item": "soup_the_mod:invisiblesoup",
     "count": 1
   }
 }

@@ -10,37 +10,37 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Soupgem"
-      },
-      {
-        "value": "CUSTOM:Soupgem"
-      },
-      {
-        "value": "CUSTOM:Soupgem"
-      },
-      {
-        "value": "CUSTOM:Soupgem"
-      },
-      {
-        "value": "CUSTOM:Soupblock"
-      },
-      {
-        "value": "CUSTOM:Soupgem"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Steelbowl"
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Soupblock"
+      },
+      {
+        "value": "CUSTOM:Souppiergem"
+      },
+      {
+        "value": "CUSTOM:Soupblock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BOWL"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Supersoup"
+      "value": "CUSTOM:Invisiblesoup"
     },
-    "name": "supersoupcraft",
+    "name": "invisiblesoupcraft",
     "namespace": "mod"
   }
 }

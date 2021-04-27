@@ -6,41 +6,41 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "soup",
-    "recipeShapeless": true,
+    "group": "",
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Soupgem"
-      },
-      {
-        "value": "CUSTOM:Soupgem"
-      },
-      {
-        "value": "CUSTOM:Soupgem"
-      },
-      {
-        "value": "CUSTOM:Soupgem"
-      },
-      {
-        "value": "CUSTOM:Soupblock"
-      },
-      {
-        "value": "CUSTOM:Soupgem"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Steelbowl"
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SoupSteel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SoupSteel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SoupSteel"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Supersoup"
+      "value": "CUSTOM:Steelbowl"
     },
-    "name": "supersoupcraft",
+    "name": "steelbowlcraft",
     "namespace": "mod"
   }
 }

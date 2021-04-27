@@ -1,5 +1,5 @@
 {
-  "group": "soup_the_mod",
+  "group": "soup",
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
@@ -21,7 +21,7 @@
       "item": "soup_the_mod:soupgem"
     },
     {
-      "item": "minecraft:bowl"
+      "item": "soup_the_mod:steelbowl"
     }
   ],
   "result": {

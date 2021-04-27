@@ -2,6 +2,7 @@
 package net.mcreator.soupthemod.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -19,11 +20,11 @@ import java.util.List;
 import java.util.Collections;
 
 @SoupTheModModElements.ModElement.Tag
-public class DensesoupblockBlock extends SoupTheModModElements.ModElement {
-	@ObjectHolder("soup_the_mod:densesoupblock")
+public class SoupSteelBlockBlock extends SoupTheModModElements.ModElement {
+	@ObjectHolder("soup_the_mod:soup_steel_block")
 	public static final Block block = null;
-	public DensesoupblockBlock(SoupTheModModElements instance) {
-		super(instance, 34);
+	public SoupSteelBlockBlock(SoupTheModModElements instance) {
+		super(instance, 90);
 	}
 
 	@Override
@@ -34,8 +35,9 @@ public class DensesoupblockBlock extends SoupTheModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(2f, 7f).lightValue(0));
-			setRegistryName("densesoupblock");
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(15f, 10f).lightValue(0).harvestLevel(8)
+					.harvestTool(ToolType.PICKAXE));
+			setRegistryName("soup_steel_block");
 		}
 
 		@Override
